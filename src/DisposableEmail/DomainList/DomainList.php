@@ -6,7 +6,8 @@ class DomainList
 {
     private $domains = array();
 
-    public function __construct() {
+    public function __construct()
+    {
         $contents = file_get_contents(dirname(__FILE__) . '/domain-list.txt');
         $this->domains = explode("\n", $contents);
     }
@@ -17,7 +18,8 @@ class DomainList
      * @param $key domain to check
      * @return bool
      */
-    public function search($key) {
+    public function search($key)
+    {
         return in_array($key, $this->domains);
     }
 
@@ -26,8 +28,8 @@ class DomainList
      *
      * @return array
      */
-    public function load() {
+    public function load()
+    {
         return $this->domains;
     }
-
 }
