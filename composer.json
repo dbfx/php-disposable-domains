@@ -1,8 +1,8 @@
 {
-  "name": "dbfx/disposable-email-domains",
+  "name": "dbfx/php-disposable-domains",
   "description": "Quick list of disposable email domains for use with PHP apps.",
   "keywords": ["email", "junk", "disposable", "spam"],
-  "homepage": "https://github.com/dbfx/disposable-email-domains",
+  "homepage": "https://github.com/dbfx/php-disposable-domains",
   "type": "project",
   "license": "MIT",
   "authors": [
