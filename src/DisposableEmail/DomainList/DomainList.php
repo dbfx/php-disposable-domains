@@ -4,7 +4,7 @@ namespace DisposableEmail\DomainList;
 
 class DomainList
 {
-    private $domains = [];
+    private $domains = array();
 
     public function __construct() {
         $contents = file_get_contents(dirname(PHP_SELF) . '/domain-list.txt');
