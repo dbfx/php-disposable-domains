@@ -7,7 +7,7 @@ class DomainList
     private $domains = array();
 
     public function __construct() {
-        $contents = file_get_contents(dirname(PHP_SELF) . '/domain-list.txt');
+        $contents = file_get_contents(dirname(__FILE__) . '/domain-list.txt');
         $this->domains = explode("\n", $contents);
     }
 
