@@ -1,0 +1,24 @@
+engines:
+  phan:
+    enabled: true
+    config:
+      file_extensions: "php"
+      backward-compatibility-checks: true
+      dead-code-detection: true
+      minimum-severity: "5"
+      ignore-undeclared: true
+  phpcodesniffer:
+    enabled: true
+    config:
+      file_extensions: "php"
+      standard: "PSR1,PSR2"
+      ignore_warnings: false
+  phpmd:
+    enabled: true
+    config:
+      file_extensions: "php,inc"
+      rulesets: "unusedcode,controversial,design,naming,codesize,cleancode"
+ratings:
+  paths:
+  - "**.php"
+exclude_paths:
