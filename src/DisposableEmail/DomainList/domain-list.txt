@@ -3,6 +3,7 @@
 0clickemail.com
 0wnd.net
 0wnd.org
+0hcow.com
 10minutemail.com
 20minutemail.com
 2prong.com
@@ -43,6 +44,7 @@ brefmail.com
 broadbandninja.com
 bsnow.net
 bugmenot.com
+buycow.org
 bumpymail.com
 casualdx.com
 centermail.com
@@ -283,6 +285,7 @@ nurfuerspam.de
 nus.edu.sg
 nwldx.com
 nwytg.com
+nwytg.net
 objectmail.com
 obobbo.com
 oneoffemail.com
